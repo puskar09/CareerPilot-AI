@@ -1,4 +1,20 @@
+# Virtual Environment
 venv/
+
+# Python Cache
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
-*.pkl
+
+# VS Code
+.vscode/
+
+# Models (optional)
+# Uncomment if models become large
+# *.pkl
+
+# Operating System
+.DS_Store
+Thumbs.db
