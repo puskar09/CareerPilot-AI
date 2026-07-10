@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("../model/placement_model.pkl")
+model = joblib.load("model/placement_model.pkl")
 
 
 def predict(student_data):

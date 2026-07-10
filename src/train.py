@@ -7,7 +7,7 @@ from preprocess import preprocess_data
 
 
 # Load and preprocess data
-X, y = preprocess_data("../dataset/Placement_Data_Full_Class.csv")
+X, y = preprocess_data("dataset/careerdata.csv")
 
 # Split dataset
 Train_X, Test_X, Train_y, Test_y = train_test_split(
@@ -32,6 +32,6 @@ acc = accuracy_score(Test_y, pred)
 print(f"Model Accuracy: {acc:.2f}")
 
 # Save model
-joblib.dump(model, "../model/placement_model.pkl")
+joblib.dump(model, "model/placement_model.pkl")
 
 print("Model saved successfully!")
