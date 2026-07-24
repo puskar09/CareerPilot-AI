@@ -193,6 +193,23 @@ Example Response
 
 ---
 
+## Live Demo
+
+Deployment is currently in progress.
+
+To run locally:
+
+Backend
+
+uvicorn backend.app:app --reload
+
+Frontend
+
+npm install
+npm run dev
+
+---
+
 # 📄 License
 
 This project is licensed under the MIT License.
