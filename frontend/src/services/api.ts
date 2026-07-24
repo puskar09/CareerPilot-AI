@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { PredictRequest, PredictResponse } from '../types';
 
 const client = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL,
   timeout: 15_000,
   headers: { 'Content-Type': 'application/json' },
 });
